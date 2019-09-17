@@ -8,7 +8,9 @@ import { Recipe } from '../recipe.model'
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
+    new Recipe('A Test Recipe', 'This is simply a test', 'https://www.spendwithpennies.com/wp-content/uploads/2018/09/SpendWithPennies-Easy-Meatloaf-Recipe-22.jpg'),
     new Recipe('A Test Recipe', 'This is simply a test', 'https://www.spendwithpennies.com/wp-content/uploads/2018/09/SpendWithPennies-Easy-Meatloaf-Recipe-22.jpg')
+
   ];
   constructor() { }
 
